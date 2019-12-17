@@ -1,0 +1,15 @@
+# --------Functions of Numbers-----
+# -------concatanation-----
+x=5
+print(str(x) +"is my fav number")
+#-----abs-----
+y = -5
+print(abs(y))
+#-----max-----
+print(max(5,10))
+#------min------
+print(min(5,10))
+#----round-----
+print(round(3.2))
+#------float----
+print(float(3.9))
