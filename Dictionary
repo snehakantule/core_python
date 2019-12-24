@@ -1,0 +1,28 @@
+#-----Functions of dictionary------
+x={"country":"India","PM":"Modi","capital":"Delhi"}
+print(x["country"])
+
+x.clear()
+print(x)
+
+x={"country":"India","PM":"Modi","capital":"Delhi"}
+print(x)
+
+y = x.copy()
+print(y)
+
+print(x.values())
+
+print(x.update())
+
+print(x.get("capital"))
+
+print(x.items())
+
+print(x.keys())
+
+print(x.pop("PM"))
+
+print(x.popitem())
+
+print(x.setdefault("country"))
